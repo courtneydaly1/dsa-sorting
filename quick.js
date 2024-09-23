@@ -33,4 +33,4 @@ function quickSort(arr, left = 0, right = arr.length -1) {
     return arr;
 }
 
-module.exports = quickSort;
+module.exports = {pivot, quickSort};

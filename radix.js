@@ -30,4 +30,4 @@ function radixSort(nums) {
     return nums;
 }
 
-module.exports = radixSort;
+module.exports = {radixSort, getDigit, digitCount, mostDigits};
