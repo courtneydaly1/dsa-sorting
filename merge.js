@@ -3,9 +3,9 @@ function merge(arr1, arr2) {
     let i = 0;
     let j =0;
 
-    while (i < arr1.length && j<arr1.length){
+    while (i < arr1.length && j < arr2.length){
         if (arr2[j] > arr1[i]){
-            res.push(arr[i])
+            res.push(arr1[i])
             i++;
         } else {
             res.push(arr2[j]);
